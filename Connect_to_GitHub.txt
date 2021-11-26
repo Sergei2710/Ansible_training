@@ -1,0 +1,10 @@
+git config --global user.name "Sergei2710"
+git config --global user.email "strelnikov2210@gmail.com"
+git config --global color.ui true
+ssh-keygen -t rsa -C "strelnikov2210@gmail.com"
+Copy ~/.ssh/id_rsa.pub
+Go to your github Account Settings
+Click “SSH Keys” on the left.
+Click “Add SSH Key” on the right.
+Add a label (like “My laptop”) and paste the public key into the big text box.
+ssh -T git@github.com
