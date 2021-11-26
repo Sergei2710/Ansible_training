@@ -1,0 +1,4 @@
+In directory you want the file run:
+git init
+git fetch git@github.com:Sergei2710/Ansible_training.git
+git checkout master -- Connect_to_GitHub.txt
